@@ -1,0 +1,13 @@
+A webserver has been developed and ansible was used to automate this. This works as expected, so when you type localhost:8080 into a web browser the site is displayed
+
+Docker was the used in order to automate the process of creating a container, in which the ansible script can be run
+
+Vagrent was then used in order to automate the process of providing a virtual enviorment and the runs the docker script.
+
+In order to run the file Vagrent up can be used
+
+
+Issues:
+the webserver works as expected with ansible, and docker, however with Vagrent the ansible is unable to find local host.
+
+all together have spend nearly 15 hours on this exercse and have enjoyed doing so however due to time constraints was unable to complete it successfully. Although I am greatful for the provided extention.
