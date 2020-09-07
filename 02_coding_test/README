@@ -1,1 +1,10 @@
 
+The script uses a RESTful API from the web in order to provide the exchange rate that is then used to convert one currency to another.
+
+Script should be executed as follows:
+
+python currency_converter.py [start currency code] [convert to currency code]
+
+LIst of currency codes can be found here:
+https://www.iban.com/currency-codes
+
